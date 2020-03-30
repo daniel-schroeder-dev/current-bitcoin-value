@@ -20,6 +20,11 @@ span {
   color: green;
 }
 
+label {
+  margin-right: 18px;
+}
+
 button {
   display: block;
+  margin-top: 12px;
 }
