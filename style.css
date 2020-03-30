@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  color: green;
+}
+
+button {
+  display: block;
+}
