@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 
 form.addEventListener('submit', e => {
   e.preventDefault();
-  new FormData(form); // fires teh formdata event
+  new FormData(form); // fires the formdata event so we can process it
 });
 
 form.addEventListener('formdata', e => {
@@ -32,4 +32,5 @@ form.addEventListener('formdata', e => {
 
   xhr.open('GET', url);
   xhr.send();
+
 });
