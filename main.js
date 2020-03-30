@@ -8,12 +8,11 @@ form.addEventListener('submit', e => {
 form.addEventListener('formdata', e => {
 
   const currency = e.formData.get('currency');
-
   const currencies = {
     'USD': '$',
     'EUR': '€',
     'GBP': '£',
-  }
+  };
 
   const valueSpan = document.querySelector('span.value');
   const currencySpan = document.querySelector('span.currency');
